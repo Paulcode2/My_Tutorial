@@ -1,0 +1,98 @@
+body{
+    background: black;
+    color: white;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 2rem;
+    margin: 2rem;
+}
+.header .head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: .5rem;
+}
+.header .head span{
+    color: #ffff;
+}
+.header .head h1{
+    color: #ffff;
+    font-size: 2.5rem;
+}
+.header .head small{
+    color: hsla(0,0%,100%,.6);
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    gap: 2rem;
+}
+
+.contact .cv{
+    padding: 1rem 2rem;
+    color:#4db5ff;
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid #4db5ff;
+    transition: all ease-in-out .5s;
+}
+.contact .cv:hover{
+    color: black;
+    background: white;
+    border: white;
+    transition: all ease-in-out .5s;
+}
+.contact .hire_me{
+    padding: 1rem 2rem;
+    color:black;
+    background: #4db5ff;
+    border-radius: 10px;
+    border: 2px solid #4db5ff;
+    transition: all ease-in-out .5s;
+}
+.contact .hire_me:hover{
+    background: white;
+    border: white;
+    transition: all ease-in-out .5s;
+}
+
+.header .image{
+    background: linear-gradient(#4db5ff, transparent);
+    border-radius: 12rem 12rem 0 0;
+  height: 30rem;
+  left: calc(50% - 11rem);
+  margin-top: 50rem;
+  overflow: hidden;
+  position: absolute;
+  width: 22rem;
+}
+
+.header .image img{
+    width: 100;
+   display: block;
+   object-fit: cover;
+}
+
+.header .me_socials{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.header .me_socials .links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
